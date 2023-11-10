@@ -1,0 +1,107 @@
+// Users Collection
+[
+    { "name": "User1", "email": "user1@example.com" },
+    { "name": "User2", "email": "user2@example.com" },
+    { "name": "User3", "email": "user3@example.com" },
+    { "name": "User4", "email": "user4@example.com" },
+    { "name": "User5", "email": "user5@example.com" },
+    { "name": "User6", "email": "user6@example.com" },
+    { "name": "User7", "email": "user7@example.com" },
+    { "name": "User8", "email": "user8@example.com" },
+    { "name": "User9", "email": "user9@example.com" },
+    { "name": "User10", "email": "user10@example.com" },
+    { "name": "User11", "email": "user11@example.com" }
+]
+
+// Codekata Collection
+[
+    { "userId": "user1_id", "problemsSolved": 5, "date": "2023-10-05" },
+    { "userId": "user2_id", "problemsSolved": 8, "date": "2023-10-10" },
+    { "userId": "user3_id", "problemsSolved": 10, "date": "2023-9-15" },
+    { "userId": "user4_id", "problemsSolved": 12, "date": "2023-8-16" },
+    { "userId": "user5_id", "problemsSolved": 5, "date": "2023-9-17" },
+    { "userId": "user6_id", "problemsSolved": 11, "date": "2023-9-16" },
+    { "userId": "user7_id", "problemsSolved": 3, "date": "2023-10-19" },
+    { "userId": "user8_id", "problemsSolved": 14, "date": "2023-10-22" },
+    { "userId": "user9_id", "problemsSolved": 7, "date": "2023-9-12" },
+    { "userId": "user10_id", "problemsSolved": 1, "date": "2023-9-17" },
+    { "userId": "user11_id", "problemsSolved": 9, "date": "2023-10-24" }
+]
+
+// Attendance Collection
+[
+    { "userId": "user1_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user2_id", "date": "2023-10-15", "status": "absent" },
+    { "userId": "user3_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user4_id", "date": "2023-10-15", "status": "absent" },
+    { "userId": "user5_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user6_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user7_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user8_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user9_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user10_id", "date": "2023-10-15", "status": "present" },
+    { "userId": "user11_id", "date": "2023-10-15", "status": "absent" },
+]
+
+// Topics Collection
+[
+    {"topicName": "html 1", "date": "2023-9-12"},
+    {"topicName": "html 2", "date": "2023-9-15"},
+    { "topicName": "html 3", "date": "2023-9-30"},
+    { "topicName": "CSS 1", "date": "2023-10-1" },
+    { "topicName": "CSS 2", "date": "2023-10-7" },
+    { "topicName": "CallBack async", "date": "2023-10-8" },
+    { "topicName": "React 1", "date": "2023-10-11" },
+    { "topicName": "React 2", "date": "2023-10-16" },
+    { "topicName": "React 2", "date": "2023-10-17" },
+    { "topicName": "React 2", "date": "2023-10-21" },
+    { "topicName": "SQL", "date": "2023-10-22" },
+    { "topicName": "MongoDB", "date": "2023-10-25" },
+    { "topicName": "NodeJS 1", "date": "2023-10-27" },
+    { "topicName": "NodeJS 2", "date": "2023-10-30" }
+]
+
+// Tasks Collection
+[
+    { "userId": "user1_id", "taskName": "React 2", "submissionDate": "2023-10-20" },
+    { "userId": "user2_id", "taskName": "React 2", "submissionDate": "" },
+    { "userId": "user3_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user4_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user5_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user6_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user7_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user8_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user9_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user10_id", "taskName": "React 2", "submissionDate": "2023-10-25" },
+    { "userId": "user11_id", "taskName": "React 2", "submissionDate": "" }
+]
+
+// Company Drives Collection
+[
+    { "driveName": "Drive 1", "date": "2023-9-20" },
+    { "driveName": "Drive 2", "date": "2023-9-25" },
+    { "driveName": "Drive 3", "date": "2023-9-30" },
+    { "driveName": "Drive 4", "date": "2023-10-25" },
+    { "driveName": "Drive 5", "date": "2023-10-30" }
+]
+
+// Mentors Collection
+[
+    { "mentorName": "Mentor1", "menteesCount": 5 },
+    { "mentorName": "Mentor2", "menteesCount": 6 }
+]
+
+// Students Collection
+[
+    { "userId": "user1_id", "driveId": "drive1_id" },
+    { "userId": "user2_id", "driveId": "drive1_id" },
+    { "userId": "user3_id", "driveId": "drive2_id" },
+    { "userId": "user4_id", "driveId": "drive3_id" },
+    { "userId": "user5_id", "driveId": "drive2_id" },
+    { "userId": "user6_id", "driveId": "drive5_id" },
+    { "userId": "user7_id", "driveId": "drive4_id" },
+    { "userId": "user8_id", "driveId": "drive3_id" },
+    { "userId": "user9_id", "driveId": "drive5_id" },
+    { "userId": "user10_id", "driveId": "drive5_id" },
+    { "userId": "user11_id", "driveId": "drive2_id" }
+]
